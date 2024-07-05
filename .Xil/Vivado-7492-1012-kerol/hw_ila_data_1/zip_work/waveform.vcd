@@ -1,0 +1,42 @@
+$date
+        2022-Dec-08 11:39:08
+$end
+$version
+        Vivado v2018.3 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " clk_200m $end
+$var reg 1 # timeout_cnt_flag $end
+$var reg 10 $ tx_time [9:0] $end
+$var reg 10 . rx_time [9:0] $end
+$var reg 10 8 delay [9:0] $end
+$var reg 1 B rec_pkt_done1 $end
+$var reg 1 C _TRIGGER $end
+$var reg 1 D _WINDOW $end
+$var reg 1 E _GAP $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0"
+0#
+b111100001 $
+b1000000101 .
+b100100 8
+0B
+0C
+1D
+0E
+$end
+#4096
+b110110001 $
+b100101 .
+1B
+1C
+#4097
+b100010001 $
+b100110110 .
+0B

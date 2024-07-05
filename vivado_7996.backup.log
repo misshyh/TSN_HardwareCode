@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed May  1 23:12:11 2024
+# Process ID: 7996
+# Current directory: D:/Code/2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26616 D:\Code\2\test_time.xpr
+# Log file: D:/Code/2/vivado.log
+# Journal file: D:/Code/2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Code/2/test_time.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Kerol/Desktop/make/2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'sync_fifo_2048x32b' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'sync_fifo_2048x32b' (customized with software release 2018.3) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'ila_0' is locked:
+* IP definition 'ILA (Integrated Logic Analyzer) (6.2)' for IP 'ila_0' (customized with software release 2018.3) has a different revision in the IP Catalog.
+INFO: [Project 1-230] Project 'test_time.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1033.336 ; gain = 351.820
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May  1 23:13:19 2024...

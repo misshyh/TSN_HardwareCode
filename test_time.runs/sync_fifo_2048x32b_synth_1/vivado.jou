@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Sep  9 17:17:09 2022
+# Process ID: 12928
+# Current directory: E:/Cr_work/Lab1012/FPGA/eth_udp_loop/eth_udp_loop.runs/sync_fifo_2048x32b_synth_1
+# Command line: vivado.exe -log sync_fifo_2048x32b.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sync_fifo_2048x32b.tcl
+# Log file: E:/Cr_work/Lab1012/FPGA/eth_udp_loop/eth_udp_loop.runs/sync_fifo_2048x32b_synth_1/sync_fifo_2048x32b.vds
+# Journal file: E:/Cr_work/Lab1012/FPGA/eth_udp_loop/eth_udp_loop.runs/sync_fifo_2048x32b_synth_1\vivado.jou
+#-----------------------------------------------------------
+source sync_fifo_2048x32b.tcl -notrace

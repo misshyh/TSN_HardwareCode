@@ -1,0 +1,21 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/start_en_d0_reg/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[2]/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[3]/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[1]/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[7]/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[6]/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[0]/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[4]/D|
+|         clk_out1_clk_wiz |                  eth_rxc |                                                                          u_udp/u_udp_tx/gmii_txd_reg[5]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[2]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[0]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[4]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[6]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[7]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[5]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[1]/D|
+|         clk_out1_clk_wiz |                  sys_clk |                                                                              u_uart_send/tx_data_reg[3]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

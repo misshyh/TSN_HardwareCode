@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Apr  5 13:31:02 2023
+# Process ID: 23660
+# Current directory: C:/Users/Kerol/Desktop/make/2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28320 C:\Users\Kerol\Desktop\make\2\test_time.xpr
+# Log file: C:/Users/Kerol/Desktop/make/2/vivado.log
+# Journal file: C:/Users/Kerol/Desktop/make/2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Kerol/Desktop/make/2/test_time.xpr
+open_hw
+update_compile_order -fileset sources_1
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Kerol/Desktop/make/2/test_time.runs/impl_1/eth_udp_loop.bin} [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {C:/Users/Kerol/Desktop/make/2/test_time.runs/impl_1/eth_udp_loop.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/Users/Kerol/Desktop/make/2/test_time.runs/impl_1/eth_udp_loop.ltx} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+create_hw_cfgmem -hw_device [get_hw_devices xc7a100t_0] -mem_dev [lindex [get_cfgmem_parts {mt25ql128-spi-x1_x2_x4}] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a100t_0] -filter {CELL_NAME=~"u1_ila_0"}]]
+set_property PROBES.FILE {C:/Users/Kerol/Desktop/make/2/test_time.runs/impl_1/eth_udp_loop.ltx} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {C:/Users/Kerol/Desktop/make/2/test_time.runs/impl_1/eth_udp_loop.ltx} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Kerol/Desktop/make/2/test_time.runs/impl_1/eth_udp_loop.bin} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+save_wave_config {C:/Users/Kerol/Desktop/make/2/test_time.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
